@@ -1,0 +1,5 @@
+# Ignore Configuration file
+default/settings.php
+
+# Ignore Tar Files 
+*.tar.gz
