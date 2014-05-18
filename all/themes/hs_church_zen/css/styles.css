@@ -1827,6 +1827,11 @@ tr.selected td {
 }
 
 /* line 14, ../sass/holy-spirit/_holyspirit.scss */
+#main-menu ul li a:hover {
+  color: #CCC47C;
+}
+
+/* line 18, ../sass/holy-spirit/_holyspirit.scss */
 .region-bottom {
   background-color: #228368;
 }
