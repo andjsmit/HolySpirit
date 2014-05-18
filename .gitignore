@@ -3,3 +3,6 @@ default/settings.php
 
 # Ignore Tar Files 
 *.tar.gz
+
+# SASS caches
+all/themes/*/.sass-cache/

@@ -1720,7 +1720,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1376896851');
+  background-image: url('../images/progress.gif?1400364300');
 }
 
 /**
@@ -1821,11 +1821,12 @@ tr.selected td {
 
 /* line 8, ../sass/holy-spirit/_holyspirit.scss */
 #main-menu ul li {
-  width: 15%;
+  width: 19%;
   text-align: center;
+  margin-top: 0.75em;
 }
 
-/* line 13, ../sass/holy-spirit/_holyspirit.scss */
+/* line 14, ../sass/holy-spirit/_holyspirit.scss */
 .region-bottom {
   background-color: #228368;
 }
