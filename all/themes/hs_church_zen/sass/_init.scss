@@ -44,13 +44,19 @@ $legacy-support-for-ie8: true;
 // Font faces, stacks and sizes.
 //
 
+
+// Import Needed Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
 // Compass' vertical_rhythm extension is a powerful tool to set up a vertical
 // rhythm for your entire page. You can see some of its mixins and functions in
 // use in the normalize.scss file.
 // @see http://compass-style.org/reference/compass/typography/vertical_rhythm/
 
-$base-font-size:   16px; // The font size set on the root html element.
-$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+$base-font-size:   14px; // The font size set on the root html element. Default 16px
+$base-line-height: 21px; // This line-height determines the basic unit of vertical rhythm. Default 24px
 
 $h1-font-size: 1.5   * $base-font-size;
 $h2-font-size: 1.5  * $base-font-size;
@@ -75,29 +81,33 @@ $times-new-roman: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
 $times:           Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
 $georgia:         Georgia, "Times New Roman", "DejaVu Serif", serif;
 
-$verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
+$verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif; //Default
 $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+// HS Fonts
+$open_sans:       "Open Sans", sans-serif;
+$monts:            Montserrat, sans-serif;
+$didact:		   "Didact Gothic", Arial,sans-serif;
 
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
-//Font for h tags
-$didact:					"Didact Gothic", Arial,sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
+$base-font-family: $open_sans; // The font family set on the html element.
+$font-body:        $open_sans;
 $font-monospace:   $courier;
-$h-font-family:		 $didact;
+$h-font-family:	   $monts;
 
 
 //
 // Colors, etc.
 //
 $hs-green: #00563f;
+$green-border: #002319;
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;

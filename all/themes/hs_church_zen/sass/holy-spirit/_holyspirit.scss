@@ -22,3 +22,18 @@
 #header{
 	background-image: url(../images/limestone.jpg);
 }
+
+#page{
+	background-color:white;
+	border-left:solid $green-border 1px;
+	border-right:solid $green-border 1px;
+	border-bottom:solid $green-border 1px;
+}
+
+body{
+	background-color:#228368;
+}
+
+footer p{
+	text-align:right;
+}
